@@ -63,6 +63,7 @@ namespace PathCreation.Examples {
         public void ChangeValue(float newValue)
         {    
             WaypointsCount = (int)(20 + newValue * 30);
+            GenerateNewPath();
         }
     }
 }
